@@ -1,0 +1,46 @@
+{
+   "leds": [
+      {
+         "id": 1,
+         "name": "bombillo1",
+         "status": 0
+      },
+      {
+         "id": 2,
+         "name": "bombillo2",
+         "status": 0
+      },
+      {
+         "id": 3,
+         "name": "bombillo3",
+         "status": 0
+      },
+      {
+         "id": 4,
+         "name": "bombillo4",
+         "status": 0
+      }
+   ],
+   "leds_rgb": [
+      {
+         "id": 1,
+         "name": "neopixel1",
+         "status": 1,
+         "color": {
+            "r": 200,
+            "g": 200,
+            "b": 200
+         }
+      },
+      {
+         "id": 2,
+         "name": "neopixel2",
+         "status": 0,
+         "color": {
+            "r": 200,
+            "g": 200,
+            "b": 200
+         }
+      }
+   ]
+}
