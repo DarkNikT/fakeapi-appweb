@@ -4,3 +4,8 @@ API Fake con datos de prueba para la aplicación web de misionTIC grupo 2 equipo
 ## URL API
 
 https://my-json-server.typicode.com/DarkNikT/fakeapi-appweb
+
+## Endpoints
+* usuarios
+* premios
+* eventos
