@@ -6,6 +6,10 @@ API Fake con datos de prueba para la aplicación web de misionTIC grupo 2 equipo
 https://my-json-server.typicode.com/DarkNikT/fakeapi-appweb
 
 ## Endpoints
-* usuarios
-* premios
-* eventos
+
+### /usuarios
+https://my-json-server.typicode.com/DarkNikT/fakeapi-appweb/usuarios
+### /premios
+https://my-json-server.typicode.com/DarkNikT/fakeapi-appweb/premios
+### /eventos
+https://my-json-server.typicode.com/DarkNikT/fakeapi-appweb/eventos
