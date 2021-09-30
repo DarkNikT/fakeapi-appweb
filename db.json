@@ -1,62 +1,4 @@
 {
-    "usuarios": [
-        {
-            "usuario": "Rebeca94",
-            "correo": "Rebeca_Vzquez93@gmail.com",
-            "nombre": "Rebeca",
-            "apellido": "Quintero",
-            "identificacion": 1182344,
-            "contraseña": "B4rBAnQn4iw3n52"
-        },
-        {
-            "usuario": "AparicioOquendo1",
-            "correo": "jaimeAparicio@gmail.com",
-            "nombre": "Jaime",
-            "apellido": "Aparicio",
-            "identificacion": 1432004,
-            "contraseña": "k86NNnntRVyAjxt"
-        },
-        {
-            "usuario": "MargaritaRM23",
-            "correo": "Margarita.Romo74@yahoo.com",
-            "nombre": "Margarita",
-            "apellido": "Romo",
-            "identificacion": 1340717,
-            "contraseña": "Xmu3Y0wBdMI77a6"
-        },
-        {
-            "usuario": "Alejandra3",
-            "correo": "alejandra_rosales21@gmail.com",
-            "nombre": "Alejandra",
-            "apellido": "Rosales",
-            "identificacion": 1360182,
-            "contraseña": "keya3t31uqpHFzt"
-        },
-        {
-            "usuario": "Amalia.Vanegas",
-            "correo": "Amalia.Vanegas_12a@yahoo.com",
-            "nombre": "Amalia",
-            "apellido": "Vanegas",
-            "identificacion": 1175314,
-            "contraseña": "s7V0v8CLxBPDA6Y"
-        },
-        {
-            "usuario": "GabrielLerma",
-            "correo": "Gabriel13@hotmail.com",
-            "nombre": "Gabriel",
-            "apellido": "Lerma",
-            "identificacion": 1400821,
-            "contraseña": "6AepELYkrw2myIv"
-        },
-        {
-            "usuario": "RosaEscobedo",
-            "correo": "Rosa.Escobedo@gmail.com",
-            "nombre": "Rosa",
-            "apellido": "Escobedo",
-            "identificacion": 1525902,
-            "contraseña": "va1mhIyBVxgY9KC"
-        }
-    ],
     "premios": [
         {
             "id": 1,
@@ -140,82 +82,205 @@
         }
     ],
     "eventos": [
-        {
-            "id": 1,
-            "titulo": "Conferencia Lectura medieval",
-            "urlImagen": "lecturamedieval.jpg",
-            "puntos": 100,
-            "descripcion": "Conferencia sobre los autores y temáticas de las obras literarias de este periodo, por parte de Msc Andres Toro - Universidad Nacional.",
-            "fecha": "25/10/2021",
-            "hora": "16:00",
-            "lugar": "Biblioteca Luis Arango Sala 2",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 2,
-            "titulo": "Concierto de música colombiana",
-            "urlImagen": "conciertomusicacolombiana.jpg",
-            "puntos": 150,
-            "descripcion": "Concierto de cuerdas de música colombiana, del grupo Los Panchos",
-            "fecha": "12/11/2021",
-            "hora": "18:30",
-            "lugar": "Teatro La Plaza",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 3,
-            "titulo": "Concierto música clásica",
-            "urlImagen": "conciertomusicaclasica.jpg",
-            "puntos": 150,
-            "descripcion": "Concierto de orquesta de música clásica por parte la banda sinfónica Barhaus",
-            "fecha": "13/11/2021",
-            "hora": "19:00",
-            "lugar": "Teatro La Plaza",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 4,
-            "titulo": "Foro de emprendimiento digital",
-            "urlImagen": "emprendimientodigital.jpg",
-            "puntos": 120,
-            "descripcion": "Foro para exponer las oportunidades y cómo crecer en el sector de la tecnología",
-            "fecha": "13/11/2021",
-            "hora": "14:00",
-            "lugar": "Teatro La Plaza",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 5,
-            "titulo": "Rumba-terapia",
-            "urlImagen": "rumbaterapia.jpg",
-            "puntos": 180,
-            "descripcion": "Participe en la sesión de rumba terapia para ejercitarse por medio de la música.",
-            "fecha": "4/11/2021",
-            "hora": "16:00",
-            "lugar": "Parqueadero empresa",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 6,
-            "titulo": "Sesión de aerobicos principiantes",
-            "urlImagen": "aerobicosprincipiantes.jpg",
-            "puntos": 180,
-            "descripcion": "Participe en la sesión de aerobicos para personas que desean empezar a mejorar su estado físico.",
-            "fecha": "4/11/2021",
-            "hora": "16:00",
-            "lugar": "Parqueadero empresa",
-            "responsable": "Bienestar"
-        },
-        {
-            "id": 7,
-            "titulo": "Taller de papiroflexia",
-            "urlImagen": "papiroflexia.jpg",
-            "puntos": 100,
-            "descripcion": "Participe para practicar el fabuloso arte del doblado de papel y haga divertidas figuras.",
-            "fecha": "3/11/2021",
-            "hora": "16:00",
-            "lugar": "Parqueadero empresa",
-            "responsable": "Bienestar"
-        }
-    ]
+    {
+        "id_categoria": 1,
+        "id_tipo": 3,
+        "id_sucursal": 1,
+        "titulo": "Aerobicos",
+        "fecha_inicio": "4/10/2021 20:00",
+        "fecha_fin": "4/10/2021 21:30",
+        "lugar": "",
+        "url": "https://meet.google.com/ocs-yybn-vdu",
+        "path_foto": "/static/images/eventos/Aerobicos.png",
+        "cupo": 20,
+        "valor_puntos": 80,
+        "disponible": true
+    },
+    {
+        "id_categoria": 1,
+        "id_tipo": 3,
+        "id_sucursal": 1,
+        "titulo": "Rumba Terapia",
+        "fecha_inicio": "1/10/2021 20:00",
+        "fecha_fin": "1/10/2021 21:30",
+        "lugar": "",
+        "url": "https://meet.google.com/ocs-yybn-vdu",
+        "path_foto": "/static/images/eventos/RumbaTerapia.png",
+        "cupo": 20,
+        "valor_puntos": 80,
+        "disponible": true
+    },
+    {
+        "id_categoria": 1,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "CrossFIit",
+        "fecha_inicio": "8/10/2021 10:00",
+        "fecha_fin": "8/10/2021 11:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/Crossfit.png",
+        "cupo": 20,
+        "valor_puntos": 120,
+        "disponible": true
+    },
+    {
+        "id_categoria": 2,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Festival de Ópera al Parque",
+        "fecha_inicio": "15/10/2021 19:30",
+        "fecha_fin": "15/10/2021 21:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/Opera.png",
+        "cupo": 10,
+        "valor_puntos": 200,
+        "disponible": true
+    },
+    {
+        "id_categoria": 2,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Feria de Arte Moderno",
+        "fecha_inicio": "19/10/2021 13:30",
+        "fecha_fin": "19/10/2021 19:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/FeriaArte.png",
+        "cupo": 10,
+        "valor_puntos": 200,
+        "disponible": true
+    },
+    {
+        "id_categoria": 2,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Autocine",
+        "fecha_inicio": "21/10/2021 19:30",
+        "fecha_fin": "21/10/2021 22:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/Autocine.png",
+        "cupo": 15,
+        "valor_puntos": 150,
+        "disponible": true
+    },
+    {
+        "id_categoria": 3,
+        "id_tipo": 1,
+        "id_sucursal": 1,
+        "titulo": "Foro de Emprendimiento Digital",
+        "fecha_inicio": "22/10/2021 13:30",
+        "fecha_fin": "22/10/2021 16:30",
+        "lugar": "",
+        "url": "https://meet.google.com/ocs-yybn-vdu",
+        "path_foto": "/static/images/eventos/ForoEmprendimiento.png",
+        "cupo": 10,
+        "valor_puntos": 85,
+        "disponible": true
+    },
+    {
+        "id_categoria": 3,
+        "id_tipo": 1,
+        "id_sucursal": 1,
+        "titulo": "Capacitación Microsoft Office 365",
+        "fecha_inicio": "24/10/2021 13:30",
+        "fecha_fin": "24/10/2021 15:30",
+        "lugar": "",
+        "url": "https://meet.google.com/ocs-yybn-vdu",
+        "path_foto": "/static/images/eventos/Capacitacion.png",
+        "cupo": 15,
+        "valor_puntos": 150,
+        "disponible": true
+    },
+    {
+        "id_categoria": 3,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Taller de Papiroflexia para Niños",
+        "fecha_inicio": "26/10/2021 13:30",
+        "fecha_fin": "26/10/2021 16:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/Papiroflexia.png",
+        "cupo": 15,
+        "valor_puntos": 130,
+        "disponible": true
+    },
+    {
+        "id_categoria": 4,
+        "id_tipo": 3,
+        "id_sucursal": 1,
+        "titulo": "Concierto Música Colombiana",
+        "fecha_inicio": "26/10/2021 19:30",
+        "fecha_fin": "26/10/2021 22:30",
+        "lugar": "",
+        "url": "https://meet.google.com/ocs-yybn-vdu",
+        "path_foto": "/static/images/eventos/ConciertoColombiana.png",
+        "cupo": 10,
+        "valor_puntos": 220,
+        "disponible": true
+    },
+    {
+        "id_categoria": 4,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Salida Parque Acuatico",
+        "fecha_inicio": "28/10/2021 9:30",
+        "fecha_fin": "28/10/2021 14:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/ParqueAcuatico.png",
+        "cupo": 15,
+        "valor_puntos": 220,
+        "disponible": true
+    },
+    {
+        "id_categoria": 4,
+        "id_tipo": 2,
+        "id_sucursal": 1,
+        "titulo": "Recorrido en Ruta - Ciclismo",
+        "fecha_inicio": "30/10/2021 5:30",
+        "fecha_fin": "30/10/2021 10:30",
+        "lugar": "",
+        "url": "",
+        "path_foto": "/static/images/eventos/Ciclismo.png",
+        "cupo": 15,
+        "valor_puntos": 220,
+        "disponible": true
+    }
+],
+    "categoria-eventos":[
+    {
+        "_id": 1,
+        "nombre": "Deportes"
+    },
+    {
+        "_id": 2,
+        "nombre": "Cultura"
+    },
+    {
+        "_id": 3,
+        "nombre": "Educación"
+    },
+    {
+        "_id": 4,
+        "nombre": "Recreación"
+    }
+],
+    "tipo-evento": [
+    {
+        "_id": 1,
+        "tipoEvento": "Virtual"
+    },
+    {
+        "_id": 2,
+        "tipoEvento": "Presencial"
+    },
+    {
+        "_id": 3,
+        "tipoEvento": "Mixto"
+    }
+]
 }
